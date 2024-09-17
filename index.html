@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Microwave Timer Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="microwave">
+        <div class="microwave-door">
+          <div class="window">
+            <div class="food"></div>
+            <div class="timer" id="timer">00:30.000</div>
+          </div>
+          <div class="light"></div>
+        </div>
+      </div>
+      <button class="open-button" id="openButton">OPEN</button>
+    </div>
+
+    <!-- Dialog Box -->
+    <div class="dialog" id="dialog">
+      <div class="dialog-content">
+        <span class="close-button" id="closeButton">&times;</span>
+        <p id="dialogText">Time left: 00:00.000</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
